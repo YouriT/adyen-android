@@ -146,18 +146,18 @@
         </LinearLayout>
 
         <!-- Left padding to align with other views -->
-        <com.adyen.checkout.ui.internal.common.view.FixedSwitchCompat
-            android:id="@+id/switchCompat_storeDetails"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/standard_margin"
-            android:paddingStart="@dimen/standard_quarter_margin"
-            android:paddingLeft="@dimen/standard_quarter_margin"
-            android:checked="false"
-            android:text="@string/checkout_store_details"
-            android:nextFocusDown="@+id/button_pay"
-            android:nextFocusForward="@+id/button_pay"
-            tools:ignore="RtlSymmetry"/>
+<!--        <com.adyen.checkout.ui.internal.common.view.FixedSwitchCompat-->
+<!--            android:id="@+id/switchCompat_storeDetails"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="@dimen/standard_margin"-->
+<!--            android:paddingStart="@dimen/standard_quarter_margin"-->
+<!--            android:paddingLeft="@dimen/standard_quarter_margin"-->
+<!--            android:checked="false"-->
+<!--            android:text="@string/checkout_store_details"-->
+<!--            android:nextFocusDown="@+id/button_pay"-->
+<!--            android:nextFocusForward="@+id/button_pay"-->
+<!--            tools:ignore="RtlSymmetry"/>-->
 
         <Button
             android:id="@+id/button_pay"
